@@ -1,24 +1,22 @@
-.carousel-item {
-	background-size:100%;
-	height:300px;
-	background-attachment:fixed;
+.slide {
+	height: 350px;
+	background-size:cover;
 	background-repeat: no-repeat;
 }
 @media (min-width: 900px) {
-	.carousel-item {
+	.slide {
 		height:500px;
 	}
-	#item1 {
-		background-position:left top;
-	}
 }
-#item1 {
+.first-slide {
 	background-image:url("fren.jpg"); 
 }
-#item2 {
+.second-slide {
 	background-image:url("rabbit.jpg");
+	background-position:center;
 }
-#item3 {
+.third-slide {
 	background-image:url("cat.jpg");
+	background-position:center;
 }
 
