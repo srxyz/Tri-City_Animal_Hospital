@@ -1,7 +1,12 @@
-.carousel-inner {
-	position:relative;
-	overflow:hidden;
-	max-height:600px;
+.carousel-item {
+	min-height:600px;
 }
-.carousel-inner img {
+#item1 {
+	background:url("fren.jpg") fixed;
+}
+#item2 {
+	background:url("rabbit.jpg") center center fixed;
+}
+#item3 {
+	background:url("cat.jpg") center center fixed;
 }
