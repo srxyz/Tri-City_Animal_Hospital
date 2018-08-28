@@ -1,0 +1,6 @@
+.carousel-item {
+	height:512px;
+}
+.carousel-inner {
+	background: url("../imgs/fren.jpg") no-repeat left top fixed;
+}
