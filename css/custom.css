@@ -4,3 +4,10 @@
 .carousel-inner {
 	background: url("../imgs/fren.jpg") no-repeat left top fixed;
 }
+.rounded-circle {
+	width:140px;
+	height:140px;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
