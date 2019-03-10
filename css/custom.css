@@ -4,6 +4,15 @@
 .carousel-inner {
 	background: url("../imgs/fren.jpg") no-repeat left top fixed;
 }
+@media (max-width: 767px) {
+	.carousel-caption {
+		text-shadow: 3px 3px 4px black;
+	}
+	.carousel-inner {
+		background: url("../imgs/dogs.jpg") center;
+		background-size: cover;
+	}
+}
 .rounded-circle {
 	width:140px;
 	height:140px;
